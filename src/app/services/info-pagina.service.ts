@@ -36,7 +36,6 @@ export class InfoPaginaService {
           (resp: any) => {
             this.cargada = true;
             this.equipo = resp;
-            console.log(resp);
           }
       );
   }
